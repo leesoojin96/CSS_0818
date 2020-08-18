@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>margin 겹침3</title>
+    <style media="screen">
+      #empty{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        /* border: 2px solid #ff50bc;
+        #empty의 border를 없애면 위치가 변경된다
+=> 어떤 태그에 시각적인 요소가 없다면 위,아래쪽 마진 값 중
+더 큰 값으로 마진을 갖게된다
+        */
+      }
+      #normal{
+        background: #d9fba5;
+        /* 마진겹침으로 인해 위치는 바뀌지않는다*/
+        margin-top:100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="empty"></div>
+    <div id="normal">normal</div>
+  </body>
+</html>

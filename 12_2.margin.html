@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>marign 겹침2</title>
+    <style media="screen">
+      #parent{
+        /* border: 2px solid #4900ff; */
+        margin-top:100px;
+      }
+      #child{
+        background: #ffafb6;
+        margin-top:50px;
+      }
+/*  부모요소의 마진 값과 자식요소의 마진 값 중
+    큰 쪽의 마진 값이 자식요소의 마진 값(위치)으로 사용된다
+*/  </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="child">
+        hello world
+      </div>
+    </div>
+  </body>
+</html>

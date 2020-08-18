@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>cascading</title>
+    <style media="screen">
+      li {
+        color : #df1313;
+      }
+      #idsel{
+        color: #3c5ddd;
+      }
+      .classsel{
+                    /* 가장 높은 우선순위를 가지게 된다 */
+        color : #8307a2 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>html</li>
+      <li id="idsel" class="classsel"
+      style="color:yellow">css</li>
+      <li>javascript</li>
+    </ul>
+    <ol>
+      <li>style attribute</li>
+      <li>id selector</li>
+      <li>class selector</li>
+      <li>tag selector</li>
+    </ol>
+  </body>
+</html>

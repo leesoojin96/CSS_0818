@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>box sizing</title>
+    <style media="screen">
+      *{
+  /* border의 두께가 다르지만 border의 경계의 크기가 동일해진다 */
+        box-sizing: border-box;
+      }
+      div{
+        margin:10px;
+        width: 80px;
+        font-size: 20px;
+      }
+      #small{
+        border: 5px solid #2b80ff;
+      }
+      #large{
+        border: 10px solid #0fd947;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="small">hello</div>
+    <div id="large">hello</div>
+  </body>
+</html>
